@@ -1,5 +1,9 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Buildroot Linux Qt 5.15
 .. |chip| replace:: RK3568
+.. |ipc| replace:: Chipsee industrial PC
 
 |systemType| OS
 ###############
@@ -20,5 +24,7 @@ Flashing OS Image
 .. include:: Resources/Download_Required_Tools_And_Image
 
 .. include:: Resources/Flash_OS
+
+.. include:: Resources/Flash_OS_Video
 
 .. include:: Resources/Development_On_Going

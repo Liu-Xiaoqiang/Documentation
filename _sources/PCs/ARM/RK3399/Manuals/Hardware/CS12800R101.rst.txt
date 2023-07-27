@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: EPC/PPC-A72-101-C
 
 .. |productE| replace:: EPC-A72-101-C
@@ -53,92 +55,43 @@
 .. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
 
 
+.. |Front View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Front.jpeg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Back.jpeg
+                  :class: product-img 
+
 .. _EPC/PPC-A72-101-C:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
+.. include:: /PCs/Shared/four_main_images
 
-.. raw:: html
+.. include:: Legacy_Resources/101/overview
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+.. include:: Legacy_Resources/101/ordering
 
-.. Image thumbnail 1
-.. raw:: html
+.. include:: Legacy_Resources/101/opt_features_2
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+.. include:: Legacy_Resources/101/HW_features
 
-.. image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Panel Mounting Variant)
+.. include:: Legacy_Resources/101/table
 
-.. raw:: html
+.. include:: Legacy_Resources/101/power
 
-    </div>
+.. include:: Legacy_Resources/101/cap_screen
 
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
-
-.. include:: Resources/overview
-
-.. include:: Resources/ordering
-
-.. include:: Resources/opt_features_2
-
-.. include:: Resources/HW_features
-
-.. include:: Resources/table
-
-.. include:: Resources/power
-
-.. include:: Resources/cap_screen
-
-.. include:: Resources/connectivity
+.. include:: Legacy_Resources/101/connectivity
 
 USB Connectors
 --------------
@@ -167,21 +120,21 @@ There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
-.. include:: Resources/LAN
+.. include:: Legacy_Resources/101/LAN
 
-.. include:: Resources/WiFi_BT
+.. include:: Legacy_Resources/101/WiFi_BT
 
-.. include:: Resources/4G_com
+.. include:: Legacy_Resources/101/4G_com
 
-.. include:: Resources/expansion_IO
+.. include:: Legacy_Resources/101/expansion_IO
 
-.. include:: Resources/TF_Card
+.. include:: Legacy_Resources/101/TF_Card
 
-.. include:: Resources/Audio_IO
+.. include:: Legacy_Resources/101/Audio_IO
 
-.. include:: Resources/HDMI
+.. include:: Legacy_Resources/101/HDMI
 
-.. include:: Resources/power_btn
+.. include:: Legacy_Resources/101/power_btn
 
 Mounting Procedure
 ==================
@@ -247,5 +200,4 @@ product measurements.
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

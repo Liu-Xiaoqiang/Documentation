@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Android
 .. |filename| replace:: prebuilt-jb-hmi-XXXX.tar.gz
 .. |folder_name| replace:: ~/Prebuilt-cs-androidXXXXX/prebuilt-sd/
@@ -539,4 +542,4 @@ Example — Develop a ``HelloWorld`` Program
 
     If the USB is not configured as an OTG model, you can copy and install the file ``HelloWorld.apk`` from the project folder ``HelloWorld/bin/``, or install the ``HelloWorld.apk`` via the internet (See `Adb connect via internet`_).
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

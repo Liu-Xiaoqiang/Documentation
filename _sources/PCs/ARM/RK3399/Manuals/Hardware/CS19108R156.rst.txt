@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: PPC-A72-156-C
 
 .. |PN| replace:: PN: CS19108R156
@@ -44,84 +46,61 @@
 
 .. |rs485| replace:: 2 x RS485 (4 at most, 1 debug port)
 
+.. |Front View| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Back.jpeg
+                  :class: product-img 
 
 .. _PPC-A72-156-C:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
+.. include:: /PCs/Shared/four_main_images
 
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/overview
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+.. include:: Legacy_Resources/133_156_215/ordering
 
-.. Image thumbnail 1
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/opt_features_2
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+.. include:: Legacy_Resources/133_156_215/HW_features
 
-.. image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View
+.. include:: Legacy_Resources/133_156_215/table
 
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/power
 
-    </div>
+.. include:: Legacy_Resources/133_156_215/cap_screen
 
-.. Image thumbnail 2
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/connectivity
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+.. include:: Legacy_Resources/133_156_215/USB
 
-.. image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View
+.. include:: Legacy_Resources/133_156_215/LAN
 
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/WiFi
 
-    </div>
+.. include:: Legacy_Resources/133_156_215/4G_com
 
-.. raw:: html
+.. include:: Legacy_Resources/133_156_215/expansion_IO
 
-    </div>
+.. include:: Legacy_Resources/133_156_215/TF_Card
 
-.. include:: Resources/overview
+.. include:: Legacy_Resources/133_156_215/Audio_IO
 
-.. include:: Resources/ordering
+.. include:: Legacy_Resources/133_156_215/HDMI
 
-.. include:: Resources/opt_features_2
-
-.. include:: Resources/HW_features
-
-.. include:: PPC_Resources/table
-
-.. include:: PPC_Resources/power
-
-.. include:: PPC_Resources/cap_screen
-
-.. include:: PPC_Resources/connectivity
-
-.. include:: PPC_Resources/USB
-
-.. include:: PPC_Resources/LAN
-
-.. include:: PPC_Resources/WiFi
-
-.. include:: PPC_Resources/4G_com
-
-.. include:: PPC_Resources/expansion_IO
-
-.. include:: PPC_Resources/TF_Card
-
-.. include:: PPC_Resources/Audio_IO
-
-.. include:: PPC_Resources/HDMI
-
-.. include:: PPC_Resources/power_btn
+.. include:: Legacy_Resources/133_156_215/power_btn
 
 Measurements and Mounting Procedure
 ===================================
@@ -142,4 +121,4 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
 
 You can find detailed information about mounting in the |mguide|.
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

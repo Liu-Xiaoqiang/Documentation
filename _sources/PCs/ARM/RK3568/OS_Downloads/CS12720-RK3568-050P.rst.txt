@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 PPC-A55-050-C (PN: CS12720-RK3568-050P)
 #######################################
 
@@ -22,8 +25,8 @@ Debian11
 
 .. _CS12720P-linuxQt:
 
-Buildroot LinuxQt5.14
----------------------
+Buildroot Linux Qt 5.15
+-----------------------
 
 
 

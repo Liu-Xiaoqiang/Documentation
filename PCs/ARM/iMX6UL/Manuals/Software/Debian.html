@@ -37,6 +37,7 @@
     <title>Debian 8.10 &#8212; Home</title>
     <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.css" />
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
@@ -45,6 +46,8 @@
     <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
     <script src="../../../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
@@ -97,7 +100,7 @@
 
             
               <li class="nav-item">
-                <a class="nav-link" href="../../../../../Monitors/index.html">Industrial Monitor</a>
+                <a class="nav-link" href="../../../../../Displays/index.html">Industrial Display</a>
               </li>
             
 
@@ -200,7 +203,7 @@
       <a href="../../../../index.html">Industrial PC</a>
     </li>
     <li class="list-group-item">
-      <a href="../../../../../Monitors/index.html">Industrial Monitor</a>
+      <a href="../../../../../Displays/index.html">Industrial Display</a>
     </li>
     <li class="list-group-item">
       <a href="../../../../../SOM/index.html">SOM (Systems on Module)</a>
@@ -328,6 +331,10 @@
         <li class="md-nav__item"><a href="#build-run" class="md-nav__link">Build & Run</a>
         </li></ul>
             </nav>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
         </li></ul>
             </nav>
         </li>
@@ -520,6 +527,10 @@
         <li class="md-nav__item"><a href="#build-run" class="md-nav__link">Build & Run</a>
         </li></ul>
             </nav>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
         </li></ul>
             </nav>
         </li>
@@ -735,7 +746,7 @@ You can also get the Prebuilt Files Package from the DVD in /Debian8.10/Prebuild
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content (<em>Table 1</em>):</p>
 <table id="id10" style="width: 100%">
-<caption><span class="caption-number">Table 69 </span><span class="caption-text">Table 1: Prebuilt Files Package</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 73 </span><span class="caption-text">Table 1: Prebuilt Files Package</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -861,7 +872,7 @@ After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> 
 <h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>There are five serial ports on the Chipsee IPC: 2 X RS232 and 3 X RS485. Refer to <em>Table 2</em> below for the available serial device nodes.</p>
 <table id="id14" style="width: 60%">
-<caption><span class="caption-number">Table 70 </span><span class="caption-text">Table 2: Serial Ports Device Nodes</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 74 </span><span class="caption-text">Table 2: Serial Ports Device Nodes</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -955,7 +966,7 @@ Two devices can be interconnected as on the <em>Figure 6</em> below:</p>
 <p>There are 8 GPIO ports on the Chipsee IPC, as explained in the <a class="reference internal" href="../Hardware/CS10600U070.html#gpio"><span class="std std-ref">GPIO</span></a> chapter of the EPC/PPC-A7-070HB-C Hardware
 Documentation. The table below contains the related device nodes:</p>
 <table id="id16" style="width: 80%">
-<caption><span class="caption-number">Table 71 </span><span class="caption-text">Table 3: GPIO Ports</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 75 </span><span class="caption-text">Table 3: GPIO Ports</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 30%"/>
 <col style="width: 70%"/>
@@ -1079,8 +1090,18 @@ $ make</p>
 $ export DISPLAY=:0
 $ ./hardwaretest_serial</p>
 </div>
-<img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
+</section>
+<section id="disclaimer">
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
 </section>
 </section>
 
@@ -1131,7 +1152,7 @@ $ ./hardwaretest_serial</p>
               
           </div>
             Last updated on
-              May 26, 2023.
+              Jul 27, 2023.
             <br/>
         </div>
       </div>

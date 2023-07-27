@@ -37,6 +37,7 @@
     <title>AIO-CM4-156 Android Start Guide &#8212; Home</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/material_custom.css" />
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
@@ -45,11 +46,13 @@
     <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
     <script src="../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Monitors with Capacitive Touch" href="../../../Monitors/index.html" />
+    <link rel="next" title="Industrial Displays with Capacitive Touch" href="../../../Displays/index.html" />
     <link rel="prev" title="AIO-CM4-156 Debian Start Guide" href="AIO156StartGuide.html" />
   
    
@@ -97,7 +100,7 @@
 
             
               <li class="nav-item">
-                <a class="nav-link" href="../../../Monitors/index.html">Industrial Monitor</a>
+                <a class="nav-link" href="../../../Displays/index.html">Industrial Display</a>
               </li>
             
 
@@ -200,7 +203,7 @@
       <a href="../../index.html">Industrial PC</a>
     </li>
     <li class="list-group-item">
-      <a href="../../../Monitors/index.html">Industrial Monitor</a>
+      <a href="../../../Displays/index.html">Industrial Display</a>
     </li>
     <li class="list-group-item">
       <a href="../../../SOM/index.html">SOM (Systems on Module)</a>
@@ -302,7 +305,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-up-your-aio-cm4-156" class="md-nav__link">Start up your AIO-CM4-156</a>
         </li>
-        <li class="md-nav__item"><a href="#known-issues-limitations" class="md-nav__link">Known Issues/Limitations</a>
+        <li class="md-nav__item"><a href="#known-issues-limitations" class="md-nav__link">Known Issues/Limitations</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -343,7 +352,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-up-your-aio-cm4-156" class="md-nav__link">Start up your AIO-CM4-156</a>
         </li>
-        <li class="md-nav__item"><a href="#known-issues-limitations" class="md-nav__link">Known Issues/Limitations</a>
+        <li class="md-nav__item"><a href="#known-issues-limitations" class="md-nav__link">Known Issues/Limitations</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -429,6 +444,17 @@
 <li><p>Hardware power button doesn’t support suspending the Android system and waking up the Android system, but supports long-press to shutdown the system, and short-press to power on the device.</p></li>
 <li><p>Hardware Volume control button doesn’t work.</p></li>
 </ol>
+<p><p class="page-break" style="margin: 0"></p></p>
+<section id="disclaimer">
+<h3 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h3>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h3 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h3>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
+</section>
 </section>
 </section>
 
@@ -456,12 +482,12 @@
             </a>
           
           
-            <a href="../../../Monitors/index.html" title="Monitors with Capacitive Touch"
+            <a href="../../../Displays/index.html" title="Industrial Displays with Capacitive Touch"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> Monitors with Capacitive Touch </span>
+                class="md-footer-nav__direction"> Next </span> Industrial Displays with Capacitive Touch </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
@@ -479,7 +505,7 @@
               
           </div>
             Last updated on
-              May 26, 2023.
+              Jul 27, 2023.
             <br/>
         </div>
       </div>

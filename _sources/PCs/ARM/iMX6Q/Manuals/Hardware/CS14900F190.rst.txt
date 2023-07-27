@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: PPC-A9-190-C
 
 .. |PN| replace:: PN: CS14900F190
@@ -38,51 +40,27 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
+.. |Front View| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Back.jpeg
+                  :class: product-img
 
 .. _PPC-A9-190-C:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+.. include:: /PCs/Shared/four_main_images
 
 .. include:: PPC_Resources/overview
 
@@ -183,8 +161,6 @@ The polarity and the pinout is clearly marked on the housing of the product as s
 
 Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
 
-.. _power-table:
-
 .. table:: Power Connector
    :align: center
    :width: 80%
@@ -269,7 +245,7 @@ GPIO Connector
 --------------
 
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below, that is labeled as P28 on the PCB.
-The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
+The table below gives details about the definition of every Pin.
 
 .. figure:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
    :align: center
@@ -277,8 +253,6 @@ The :ref:`table <gpio-table>` below gives details about the definition of every 
 
    *GPIO Connector*
 
-
-.. _gpio-table:
 
 .. table:: GPIO Connector Pin-out
    :align: center
@@ -363,4 +337,4 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
 
 You can find detailed information about mounting in the |mguide|.
 
-.. include:: PPC_Resources/support
+.. include:: /PCs/Shared/support

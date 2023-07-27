@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: PPC-A55-101
 
 .. |productP| replace:: PPC-A55-101
@@ -12,7 +14,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -22,7 +24,7 @@
 
 .. |weightP| replace:: 1300g
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
 
 .. |eMMC| replace:: 16GB
 
@@ -52,77 +54,79 @@
 
 .. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
+.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Power-RK3568-101P.jpg
+                  :align: middle
+                  :width: 576
 
+.. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/IO.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |sim_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-SIM.jpg
+                  :align: middle
+                  :width: 640
+                  
+.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/LAN.jpg
+                  :align: middle
+                  :width: 192
+
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TF_Card_SIM_Card.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Audio.jpg
+                  :align: middle
+                  :width: 192
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/HDMI.jpg
+                  :align: middle
+                  :width: 96
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Prog_Button.jpg
+                  :align: middle
+                  :width: 192
+
+.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+                  :align: middle
+                  :width: 576
+
+.. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side2.jpg
+                  :class: product-img                 
+                  
 .. _PPC-A55-101:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Front.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Rear.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Rear View (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side1.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 1 (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side2.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 2 (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+.. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
 
@@ -136,7 +140,7 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/cap_screen_usb
 
 .. include:: Resources/connectivity_CS12800-RK3568-101P
 
@@ -148,6 +152,8 @@
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/m2_slot
+
 .. include:: Resources/TF_Card_CS12800-RK3568-101P
 
 .. include:: Resources/Audio_IO_CS12800-RK3568-101P
@@ -158,7 +164,12 @@
 
 .. include:: Resources/mounting
 
+.. rst-class:: text-center
+
+   |mounting_img|
+
+   *Panel mounting* (|product|)
+
 .. include:: Resources/mechanical
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

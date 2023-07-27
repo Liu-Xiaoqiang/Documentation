@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 PPC-A55-101-C (PN: CS12800-RK3568-101P)
 #######################################
 
@@ -25,8 +28,8 @@ Debian11
 
 .. _CS12800P-linuxQt:
 
-Buildroot LinuxQt5.14
----------------------
+Buildroot Linux Qt 5.15
+-----------------------
 
 
 

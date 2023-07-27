@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: PPC/EPC-A8-070H-C
 
 .. |productE| replace:: EPC-A8-070H-C
@@ -56,77 +58,32 @@
 
 .. |product_link| replace:: EPC/PPC-A8-070H-C
 
+.. |Front View| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Front.jpeg
+                  :class: product-img
+                  :alt: Front View (Embedded Variant)
+
+.. |Side View 2| image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Back.jpeg
+                  :class: product-img 
+                  :alt: Rear View (Embedded Variant)
+
 .. _PPC/EPC-A8-070H-C:
 
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
+.. include:: /PCs/Shared/four_main_images
 
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+:pagebreak:`True`
 
 .. include:: Resources/overview
 
@@ -138,11 +95,19 @@
 
 .. include:: Resources/table
 
+:pagebreak:`True`
+
 .. include:: Resources/power
+
+:pagebreak:`True`
 
 .. include:: Resources/cap_screen
 
+:pagebreak:`True`
+
 .. include:: Resources/connectivity
+
+:pagebreak:`True`
 
 .. include:: Resources/USB
 
@@ -150,15 +115,23 @@
 
 .. include:: Resources/WiFi
 
+:pagebreak:`True`
+
 .. include:: Resources/expansion_IO
+
+:pagebreak:`True`
 
 .. include:: Resources/TF_Card
 
 .. include:: Resources/Audio_IO
 
+:pagebreak:`True`
+
 .. include:: Resources/Boot_SW
 
 .. include:: Resources/mounting
+
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -175,6 +148,8 @@ product measurements.
 
    |productE| *Technical Drawing*
 
+:pagebreak:`True`
+
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
@@ -186,6 +161,8 @@ product measurements.
 
    |productP| *Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: Resources/mount_set
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

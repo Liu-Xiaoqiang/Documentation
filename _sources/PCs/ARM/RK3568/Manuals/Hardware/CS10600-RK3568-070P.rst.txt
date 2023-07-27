@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: PPC-A55-070
 
 .. |productP| replace:: PPC-A55-070
@@ -54,77 +56,35 @@
 
 .. |poe| replace:: Supported, Optional
 
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |sim_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |Front View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side2.jpg
+                  :class: product-img                  
 
 .. _PPC-A55-070:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Back.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side1.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 1 (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side2.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 2 (Black Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+.. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
 
@@ -504,5 +464,4 @@ product measurements.
 
    |productP| *Technical Drawing*
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

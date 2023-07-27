@@ -1,3 +1,5 @@
+.. include:: /PCs/Shared/pdf_options
+
 .. |product| replace:: EPC/PPC-CM4-050
 
 .. |productE| replace:: CS12720RA4050E
@@ -18,7 +20,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 141.2 x 77.6 x 25.8mm
 
@@ -29,6 +31,8 @@
 .. |weightP| replace:: 310g
 
 .. |tscreen| replace:: 5-point capacitive touch
+
+.. |cap_screen_conn| replace:: FPC connector
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
 
@@ -56,95 +60,55 @@
 
 .. |product_link| replace:: EPC/PPC-CM4-050
 
+.. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
 
+.. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
+                  :align: middle
+                  :width: 384 
+                  
+.. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.jpeg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
+                  :class: product-img
+                  :alt: Front View (Embedded Variant)
+                  
+.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Back.png
+                  :class: product-img
+                  :alt: Rear View (Embedded Variant)
+                  
 .. _EPC/PPC-CM4-050:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
+.. include:: /PCs/Shared/four_main_images
 
-.. raw:: html
+.. include:: Legacy_Resources/CS12720RA4050/overview
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+.. include:: Legacy_Resources/CS12720RA4050/ordering
 
-.. Image thumbnail 1
-.. raw:: html
+.. include:: Legacy_Resources/CS12720RA4050/HW_features
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Back.png
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
-
-.. include:: Resources/overview
-
-.. include:: Resources/ordering
-
-.. include:: Resources/HW_features
-
-.. include:: Resources/table_cs12720ra4050
+.. include:: Legacy_Resources/CS12720RA4050/table_cs12720ra4050
 
 .. attention::
 
     Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
 
-.. include:: Resources/power_cs12720ra4050
+.. include:: Legacy_Resources/CS12720RA4050/power_cs12720ra4050
 
-.. include:: Resources/power
+.. include:: Legacy_Resources/CS12720RA4050/power
 
-.. include:: Resources/cap_screen
+.. include:: Legacy_Resources/CS12720RA4050/cap_screen
 
 Connectivity
 ============
@@ -235,11 +199,11 @@ The product has one USB Type-C connector that works as a slave by default. You c
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
 
-.. include:: Resources/LAN
+.. include:: Legacy_Resources/CS12720RA4050/LAN
 
-.. include:: Resources/WiFi
+.. include:: Legacy_Resources/CS12720RA4050/WiFi
 
-.. include:: Resources/Camera
+.. include:: Legacy_Resources/CS12720RA4050/Camera
 
 TF Card Slot
 ============
@@ -341,4 +305,4 @@ product measurements.
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support
