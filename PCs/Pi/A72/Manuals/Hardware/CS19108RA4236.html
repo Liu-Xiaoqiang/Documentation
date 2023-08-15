@@ -547,7 +547,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div></div><p><p class="page-break" style="margin: 0"></p></p>
 <section id="product-overview">
 <h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this heading">¶</a></h2>
-<p>The Cortex<sup>®</sup>-A72 Raspberry Pi<sup>®</sup> series PPC-CM4-236 (PN: CS19108RA4236) is a high-quality industrial Pi PC. It features a 23.6” Ten-point capacitive touch screen with a resolution of 1920 x 1080 pixels and brightness of 250 cd/m<sup>2</sup>.</p>
+<p>The Cortex<sup>®</sup>-A72 Raspberry Pi<sup>®</sup> series PPC-CM4-236 (PN: CS19108RA4236) is a high-quality industrial Pi PC. It features a 23.6” Ten-point capacitive touch screen with a resolution of 1920 x 1080 pixels and brightness of 400 cd/m<sup>2</sup>.</p>
 <aside class="sidebar">
 <p class="sidebar-title">Key Applications</p>
 <ul class="simple">
@@ -625,7 +625,7 @@ Some of the key features are listed in the table below.</p>
 <td><p>16/32 GB, Based on CM4</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Display</strong></p></td>
-<td><p>23.6” IPS LCD, 1920 x 1080 resolution px, brightness 250 cd/m<sup>2</sup></p></td>
+<td><p>23.6” IPS LCD, 1920 x 1080 resolution px, brightness 400 cd/m<sup>2</sup></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Touch</strong></p></td>
 <td><p>10-point capacitive touch with 1mm Armored Glass</p></td>
@@ -643,7 +643,7 @@ Some of the key features are listed in the table below.</p>
 <td><p>Onboard Buzzer, driven by GPIO</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>RTC</strong></p></td>
-<td><p>Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)</p></td>
+<td><p>High accuracy RTC with farad capacitor, can work 1 week after power off <strong>(default)</strong>. High accuracy RTC with lithium coin battery, can work 3 years after power off <em>(optional)</em>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>RS232</strong></p></td>
 <td><p>Default to 2 x RS232, up to 4 x RS232</p></td>
@@ -682,10 +682,10 @@ Some of the key features are listed in the table below.</p>
 <td><p>From 12V to 36V</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Current at 12V</strong></p></td>
-<td><p>1500mA Max</p></td>
+<td><p>1.96A Max</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Power Consumption</strong></p></td>
-<td><p>20W Typical</p></td>
+<td><p>19.92W (12V x 1.66A) Typical, 23.52W (12V x 1.96A) Max</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Working Temperature</strong></p></td>
 <td><p>From 0°C to +50°C</p></td>
@@ -694,10 +694,10 @@ Some of the key features are listed in the table below.</p>
 <td><p>Debian</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Dimensions</strong></p></td>
-<td><p>CS19108RA4236P: 600 x 400 x 60mm</p></td>
+<td><p>CS19108RA4236P: 595 x 374 x 57.25mm</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Weight</strong></p></td>
-<td><p>CS19108RA4236P: 6000g</p></td>
+<td><p>CS19108RA4236P: 7500g</p></td>
 </tr>
 </tbody>
 </table>
@@ -864,7 +864,7 @@ The table below gives details about the definition of every Pin.</p>
 <li><p>In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.</p></li>
 </ol>
 </div>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/GP_IO_2.jpeg"><img alt="gpio_schema_img" class="align-middle" src="../../../../../_images/GP_IO_2.jpeg" style="width: 768px;"/></a></p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/GPIO_Schema.png"><img alt="../../../../../_images/GPIO_Schema.png" class="text-center align-center" src="../../../../../_images/GPIO_Schema.png" style="width: 720px;"/></a>
 <p class="text-center"><em>Isolated GPIO reduced schematic</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/GPIObig1.jpg"><img alt="gpio_img" class="align-middle" src="../../../../../_images/GPIObig1.jpg" style="width: 768px;"/></a></p>
 <p class="text-center"><em>GPIO Connector</em></p>
@@ -974,13 +974,13 @@ The customer will also need a SIM Card Holder and a 3G/4G/LTE antenna to ensure 
 <figure class="align-center" id="id8">
 <img alt="../../../../../_images/4G_module.jpeg" src="../../../../../_images/4G_module.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 940:  </span><span class="caption-text"><em>3G/4G/LTE Module</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 937:  </span><span class="caption-text"><em>3G/4G/LTE Module</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id9">
 <img alt="../../../../../_images/4G_com.jpeg" src="../../../../../_images/4G_com.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 941:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G/LTE Antenna</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 938:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G/LTE Antenna</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -995,7 +995,7 @@ For CS19108RA4236P, there is a connector on the backside of the case that you ca
 <figure class="align-center" id="id10">
 <img alt="../../../../../_images/ZigBee_Con.jpeg" src="../../../../../_images/ZigBee_Con.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 942:  </span><span class="caption-text"><em>Zigbee controller</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 939:  </span><span class="caption-text"><em>Zigbee controller</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/ANT3.jpg"><img alt="zigbee_img" class="align-middle" src="../../../../../_images/ANT3.jpg" style="width: 384px;"/></a></p>
@@ -1059,7 +1059,7 @@ When booting <strong>without pressing</strong> the button, the Raspberry Pi will
 <h2 id="mechanical-specifications">Mechanical Specifications<a class="headerlink" href="#mechanical-specifications" title="Permalink to this heading">¶</a></h2>
 <section id="productp">
 <h3 id="productp">CS19108RA4236P<a class="headerlink" href="#productp" title="Permalink to this heading">¶</a></h3>
-<p>For CS19108RA4236P, the outer mechanical dimensions are 600 x 400 x 60mm (W x L x H).</p>
+<p>For CS19108RA4236P, the outer mechanical dimensions are 595 x 374 x 57.25mm (W x L x H).</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
@@ -1122,7 +1122,7 @@ When booting <strong>without pressing</strong> the button, the Raspberry Pi will
               
           </div>
             Last updated on
-              Aug 03, 2023.
+              Aug 15, 2023.
             <br/>
         </div>
       </div>
